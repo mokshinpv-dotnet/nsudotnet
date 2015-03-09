@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HtmlLanguageCommentSymbols.cs" />
+    <Compile Include="CSharpLanguageCommentSymbols.cs" />
+    <Compile Include="ILanguageCommentSymbols.cs" />
+    <Compile Include="LinesCounter.cs" />
+    <Compile Include="LinesCounterStatistics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
